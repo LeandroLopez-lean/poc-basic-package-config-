@@ -1,5 +1,23 @@
 {
-    "scripts": {
-      "start": "node index.js"
-    }
+  "scripts": {
+    "start": "node index.js"
+  },
+  "name": "poc-basic-package-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroLopez-lean/poc-basic-package-config-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroLopez-lean/poc-basic-package-config-/issues"
+  },
+  "homepage": "https://github.com/LeandroLopez-lean/poc-basic-package-config-#readme",
+  "description": "",
+  "devDependencies": {
+    "rollup": "^4.1.4"
   }
+}
