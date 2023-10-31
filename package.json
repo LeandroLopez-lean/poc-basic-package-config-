@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "node index.js"
+    "start": "node dist/bundle.js",
+    "build": "rollup -c"
   },
   "name": "poc-basic-package-config",
   "version": "1.0.0",
@@ -18,6 +19,6 @@
   "homepage": "https://github.com/LeandroLopez-lean/poc-basic-package-config-#readme",
   "description": "",
   "devDependencies": {
-    "rollup": "^4.1.4"
+    "rollup": "^4.2.0"
   }
 }
